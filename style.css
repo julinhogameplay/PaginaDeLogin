@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,400&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:ital,wght@0,600;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background: #2B892A6B;
+    box-shadow: 1px 1px 5px rgb(73, 110, 73);
+    font-family: 'Roboto', sans-serif;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 3%;
+}
+header .left  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+}
+body {
+    background: #f1f1f1;
+}
+main .card {
+    position: absolute;
+    background: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    border-radius: 15px;
+    width: 300px;
+    z-index: -1;
+}
+main .logo {
+    margin-left: 46%;
+    margin-top: 39px;
+    z-index: 0;
+}
+main .card .login {
+    color: #175816;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Poppins";
+    margin-bottom: 7px;
+    margin-top: 9px;
+}
+input {
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    background: #f1f1f1;
+    outline: none;
+    border: none;
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #A3A3A3;
+    width: 100%;
+}
+button {
+    height: 38px;
+    background: #175816;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 104%;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+    color: #A3A3A3;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+.cadastre {
+    text-align: center;
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 1280px) {
+    main .card {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    main .logo {
+        margin-top: 125px;
+    }
+}
+@media screen and (max-width: 1110px) {
+    main .card {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    main .logo {
+        margin-top: 150px;
+        margin-left: 500px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    main .card {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    main .logo {
+        margin-top: 20px;
+        margin-left: 455px;
+    }
+}
+@media screen and (max-width: 912px) {
+    main .card {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    main .logo {
+        margin-top: 150px;
+        margin-left: 405px;
+    }
+}
+@media screen and (max-width: 820px) {
+    main .card {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    main .logo {
+        margin-top: 150px;
+        margin-left: 355px;
+    }
+}
+@media screen and (max-width: 768px) {
+    main .card {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    main .logo {
+        margin-top: 150px;
+        margin-left: 330px;
+    }
+}
+@media screen and (max-width: 540px) {
+    main .card {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    main .logo {
+        margin-top: 80px;
+        margin-left: 220px;
+    }
+}
+@media screen and (max-width: 414px) {
+    main .card {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    main .logo {
+        margin-top: 175px;
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 412px) {
+    main .card {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    main .logo {
+        margin-top: 185px;
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 393px) {
+    main .card {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    main .logo {
+        margin-top: 150px;
+        margin-left: 140px;
+    }
+}
+@media screen and (max-width: 375px) {
+    main .card {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    main .logo {
+        margin-top: 130px;
+        margin-left: 134px;
+    }
+}
+@media screen and (max-width: 360px) {
+    main .card {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    main .logo {
+        margin-top: 95px;
+        margin-left: 128px;
+    }
+}
